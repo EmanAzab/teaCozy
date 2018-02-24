@@ -1,0 +1,137 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  z-index: 1;
+  border-bottom:1px solid seashell;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header img{
+  height: 50px;
+  padding-right: 10px;
+}
+header li {
+  margin-right: 20px;
+  text-decoration: underline;
+  display: inline-block;
+  }
+
+ header ul{
+  list-style: none;
+   }
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  position: relative;
+  width: 100%;
+  top: 70px;
+  justify-content: center;
+}
+
+.mission{
+  display: flex;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  width:1200px;
+  height:700px;
+}
+
+.container{
+  display: inline-block;
+  background-color: black;
+  width: 100%;
+}
+
+.products{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:center;
+}
+
+.container-gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  width: 1000px;
+}
+.product-type{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.sub{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 700px;
+}
+
+
+.product-type img{
+  width:300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.locations{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height:550px;
+
+}
+
+.all-locations{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  margin-right: 40px;
+}
+
+.location{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+
+
+.rights{
+  text-align:left;
+  padding-left: 20px;
+}
