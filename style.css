@@ -59,6 +59,10 @@ header li {
   background-color: black;
   width: 100%;
 }
+.container h4{
+  padding-left:45px;
+
+}
 
 .products{
   display: flex;
@@ -98,27 +102,38 @@ header li {
 .locations{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   width: 1200px;
-  height:550px;
-
+  height: 500px;
 }
 
 .all-locations{
   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+ .locations .all-locations {
   justify-content: space-around;
-  padding-top: 15px;
-  margin-right: 40px;
 }
 
 .location{
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
   background-color: black;
   opacity: 1;
   width: 300px;
+}
+
+.medium{
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .contact{
